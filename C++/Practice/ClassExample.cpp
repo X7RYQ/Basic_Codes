@@ -2,13 +2,13 @@
 using namespace std;
 class Example {
     private: 
-    int x // Private field
+    int x; // Private field
     public: 
     Example(int a) { // Constructor
         x = a;
     }
     ~Example() { } // Destructor
-    void setX (int a) // Method declared, defined outside class 
+    void setX (int a); // Method declared, defined outside class 
     int getX() { // Method defined inside class
         return x;
     }
